@@ -1,0 +1,21 @@
+.answer-container {
+  display: flex;
+  margin-bottom: 0.4rem;
+  width: 100%;
+  font-size: 1.7rem;
+  border: 0.1rem solid rgb(17, 88, 77);
+  background-color: white;
+}
+
+.answer-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: paleturquoise;
+  color: wheat;
+}
+
+.answer-container:hover {
+  cursor: zoom-in;
+  box-shadow: 0 0.3rem 1.3rem rgba(80, 175, 225, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
