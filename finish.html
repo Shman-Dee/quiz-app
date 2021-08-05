@@ -5,11 +5,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Finish</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+  <section class="container">
+    <section id="end" class="flex-center flex column">
+      <h2 id="finalScore">0</h2>
+      <form>
+        <input type="text" name="username" id="username" placeholder="Initials">
+        <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
+      </form>
+      <a class="btn" href="./gamer.html">Try Again</a>
 
+    </section>
+  </section>
+  <script src="./scoreboard.js"></script>
 </body>
 
 </html>

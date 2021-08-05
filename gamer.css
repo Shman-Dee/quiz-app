@@ -3,7 +3,7 @@ body {
 }
 
 h2 {
-  font-size: 300%;
+  font-size: 200%;
 }
 
 .answer-container {
@@ -11,7 +11,7 @@ h2 {
   align-items: center;
   margin-bottom: 0.4rem;
   width: 100%;
-  font-size: 1.7rem;
+  font-size: 1.1rem;
   border: 0.1rem solid rgb(17, 88, 77);
   background-color: rgb(180, 184, 187);
 }
@@ -23,7 +23,7 @@ h2 {
 }
 
 .answer-container:hover {
-  cursor: zoom-in;
+  cursor: pointer;
   box-shadow: 0 0.3rem 1.3rem rgba(80, 175, 225, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
