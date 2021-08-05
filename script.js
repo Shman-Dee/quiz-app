@@ -7,6 +7,24 @@ var score = 0;
 var questionCounter = 0;
 var availableQuestions = [];
 
+// Selects element by class
+var timeEl = document.querySelector(".time");
+
+var secondsLeft = 10;
+
+function setTime() {
+  // Sets interval in variable
+  var timerInterval = setInterval(function () {
+    secondsLeft--;
+    timeEl.textContent = secondsLeft;
+
+    if (secondsLeft === 0) {
+      // Stops execution of action at set interval
+      clearInterval(timerInterval);
+    }
+  }, 1000);
+}
+
 var questions = [
   {
     question: "What is 6 + 0?",
@@ -149,3 +167,4 @@ function incrementScore(num) {
 }
 
 startGame();
+setTime();

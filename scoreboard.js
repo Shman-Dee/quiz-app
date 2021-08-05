@@ -5,7 +5,10 @@ var finalScore = document.getElementById("finalScore");
 var MAX_HIGH_SCORES;
 var highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 console.log(saveScoreBtn);
+
 finalScore.innerText = mostRecentScore;
+
+
 username.addEventListener("keyup", () => {
   saveScoreBtn.disabled = !username.value;
 });
