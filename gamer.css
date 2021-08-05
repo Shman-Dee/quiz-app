@@ -1,15 +1,24 @@
+body {
+  background-color: thistle;
+}
+
+h2 {
+  font-size: 300%;
+}
+
 .answer-container {
   display: flex;
+  align-items: center;
   margin-bottom: 0.4rem;
   width: 100%;
   font-size: 1.7rem;
   border: 0.1rem solid rgb(17, 88, 77);
-  background-color: white;
+  background-color: rgb(180, 184, 187);
 }
 
-.answer-prefix {
+.answer-letter {
   padding: 1.5rem 2.5rem;
-  background-color: paleturquoise;
+  background-color: rgb(68, 69, 124);
   color: wheat;
 }
 
@@ -18,4 +27,9 @@
   box-shadow: 0 0.3rem 1.3rem rgba(80, 175, 225, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
+}
+
+.answer-text {
+  padding: 1.5rem;
+  width: 100%;
 }
